@@ -129,7 +129,7 @@ theme.cal = lain.widget.calendar({
 --]]
 
 local net_widgets = require("net_widgets")
-net_wireless = net_widgets.wireless({interface="lo"})
+net_wireless = net_widgets.wireless({interface="wlp3s0", timeout = 30, font = theme.font, popup_signal=true})
 net_w = net_widgets.indicator({ interfaces = {"enp0s3", "lo"}, timeout = 5, font = theme.font } )
 
 --[[net_wired = net_widgets.inidcator({
