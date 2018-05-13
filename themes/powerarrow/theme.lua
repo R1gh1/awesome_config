@@ -49,6 +49,9 @@ theme.layout_fairv                              = theme.dir .. "/icons/fairv.png
 theme.layout_fairh                              = theme.dir .. "/icons/fairh.png"
 theme.layout_spiral                             = theme.dir .. "/icons/spiral.png"
 theme.layout_cornernw                             = theme.dir .. "/icons/cornernw.png"
+theme.layout_cornerne                             = theme.dir .. "/icons/cornerne.png"
+theme.layout_cornerse                             = theme.dir .. "/icons/cornerse.png"
+theme.layout_cornersw                             = theme.dir .. "/icons/cornersw.png"
 
 theme.layout_dwindle                            = theme.dir .. "/icons/dwindle.png"
 theme.layout_max                                = theme.dir .. "/icons/max.png"
